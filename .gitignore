@@ -1,22 +1,14 @@
-target/
-/var
-pom.xml.versionsBackup
-test-output/
-/atlassian-ide-plugin.x
-.idea
-.*.swp
-.*.swo
-leveldb-c
-*~
-*.swp
-.idea
-.idea/*
-*.iml
-*.ipr
-*.iws
-.DS_Store
-.scala_dependencies
-.project
-.classpath
-.settings
-eclipse-classes
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+#*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+example/
